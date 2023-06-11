@@ -1,0 +1,9 @@
+body{
+    background-color: darkorange;
+}
+button{
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: royalblue;
+}
