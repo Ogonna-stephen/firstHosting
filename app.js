@@ -37,7 +37,7 @@ app.post("/", (req, res) => {
     const url = "https://us21.api.mailchimp.com/3.0/lists/efd1177a3b"
     const options = {
         method: "POST",
-        auth: "Ogoo:dd5a7a04955d1f112835e5524d7b7a08-us21"
+        auth: "Ogoo:1050b1786dea260af41ebc732c74a415-us21"
     }
 
     const request = https.request(url, options, (response) => {
@@ -64,7 +64,7 @@ app.listen(process.env.PORT || 3000, () => {
 });
 
 // API KEY
-// dd5a7a04955d1f112835e5524d7b7a08-us21
+// 1050b1786dea260af41ebc732c74a415-us21
 
 // list ID
 // efd1177a3b
